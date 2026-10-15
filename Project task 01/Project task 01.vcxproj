@@ -125,9 +125,12 @@
   <ItemGroup>
     <ClCompile Include="logic.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="tetsrunner.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="logic.h" />
+    <ClInclude Include="test.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
